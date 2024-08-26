@@ -1,0 +1,107 @@
+body {
+  background-color: #d5e1ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card-container {
+  background-color: #fff;
+  width: 320px;
+  height: 499px;
+  border-radius: 20px;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+}
+
+.qr-wrapper {
+  padding: 16px 16px 40px;
+}
+
+.img-qr {
+  width: 288px;
+  height: 288px;
+}
+
+
+/* .qr-wrapper {
+  position: relative;
+  padding: 16px 16px 40px;
+  overflow: hidden;
+} */
+
+
+/* .qr-section {
+  background: var(--color-blue-600, #2c7dfa);
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} */
+
+/* Custom 2 circles in img */
+
+/* .qr-wrapper::before,
+.qr-wrapper::after {
+  content: '';
+  width: 328px;
+  height: 328px;
+  border-radius: 328px;
+  flex-shrink: 0;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.qr-wrapper::before {
+  width: 328px;
+  height: 328px;
+  top: -150px;
+  left: -150px;
+}
+
+.qr-wrapper::after {
+  width: 270px;
+  height: 270px;
+  top: 186.5px;
+  left: 150px;
+} */
+
+
+/* Card content section */
+.card-content {
+  margin-top: 24px;
+}
+
+.card-title {
+  color: var(--color-slate-900, #1F314F);
+  text-align: center;
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-family: Outfit;
+  font-size: var(--font-size-text-preset-1, 22px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+align-self: stretch;
+}
+
+.card-dec {
+  color: var(--color-slate-500, #68778D);
+  text-align: center;
+  font-feature-settings: 'liga' off, 'clig' off;
+
+  font-family: Outfit;
+  font-size: var(--font-size-text-preset-2, 15px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+ 
+  letter-spacing: 0.2px;
+  margin-top: 16px;
+  align-self: stretch;
+}
